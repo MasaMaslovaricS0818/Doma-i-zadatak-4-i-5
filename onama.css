@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+ body
+{
+    background: url("images/pattern.jpg");
+   
+}
+.container
+{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+.headder img
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    background-color: black;   
+}    
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+} 
+li 
+{
+    float:left;
+}
+li a 
+{
+
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #111;
+} 
+label
+{
+    color:black;
+}
+.hamburger
+{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    height: 5px;
+    
+}
+@media only screen and (max-width:1024px)
+{
+    .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+}
+.Onama
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: 1rem;
+    text-align: left;
+}
+.slike img{
+    width: 263px;
+    height: 240px;
+    margin: 1.5rem 1rem;
+    border: 2px solid white;
+    border-radius: 3px;
+    transition: transform 1s ease;
+}
+.galerija{
+    display: flex;
+    
+}
+.galerija{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10%;
+}
+
+h1{
+    text-align: center;
+}
+
+  .galerija img:hover{
+      transform: scale(1.1);
+  }
+
+fieldset
+{
+      text-align: center;
+      background-color: white;
+      margin-bottom: 50px;
+      width: 90%;
+      margin-left: 5%;
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

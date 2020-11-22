@@ -1,0 +1,126 @@
+@slika_pozadine:url("images/pattern.jpg");
+@boja_pozadine:white;
+@dekoracija:none;
+@sirina:90%;
+@font-family:'Times New Roman', Times, serif;
+@velicina_fonta:25px;
+@margina:5%;
+@margina1:10%;
+@pozicija:center;
+@boja:black;
+*{
+    box-sizing: border-box;
+}
+ body
+{
+    background:@boja_pozadine;   
+}
+.container
+{
+    width:@sirina;
+    background-color:@boja_pozadine;
+    margin: 0 auto;
+}
+.header
+{
+    padding: 0;  
+}
+.headder img
+{
+    margin: 0;
+    padding: 0;
+    list-style-type:@dekoracija;    
+}    
+ul li
+{
+    text-decoration-color: black;
+    text-align: @pozicija;
+    font-family: @font-family;
+    font-size: @velicina_fonta;
+    height:@velicina_fonta;
+    float: left;
+    width: 22%;
+    list-style-type:@dekoracija;
+        a{
+            display: block;
+            color: @boja_pozadine;
+                a:hover{
+                    color: @boja_pozadine;
+                    background-color: @boja_pozadine;
+                }
+        }
+}
+.Onama
+{
+    margin-top:@margina1;
+    margin-left:@margina;
+    margin-right:@margina;
+    width:@sirina;
+    font-size: 1rem;
+    text-align: left;
+}
+.slike img{
+    width: 263px;
+    height: 240px;
+    margin: 1.5rem 1rem;
+    border: 2px solid white;
+    border-radius: 3px;
+    transition: transform 1s ease;
+}
+.galerija{
+    display: flex; 
+}
+.galerija{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10%;
+}
+h1{
+    text-align:@pozicija;
+}
+.hamburger
+{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    height: 5px;
+    
+}
+.galerija img:hover{
+      transform: scale(1.1);
+}  
+@media only screen and (max-width:1024px)
+{
+    .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+}
+.footer
+{
+    text-align:@pozicija;
+    height: 40px;
+    font-size: 35px;
+    background-color: @boja_pozadine;
+}
+label{
+    color: @boja_pozadine;
+}

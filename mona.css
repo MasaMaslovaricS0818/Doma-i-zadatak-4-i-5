@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+ body
+{
+    background: url("images/pattern.jpg");
+   
+}
+.container
+{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+.header
+{
+    padding: 0;
+    
+}
+.header img
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.hamburger
+{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    height: 5px;
+    
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+} 
+li 
+{
+    float:left;
+}
+li a 
+{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #111;
+} 
+label
+{
+    color:black;
+}
+
+@media only screen and (max-width:1024px)
+{
+    .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+}
+.Prvideo
+{    
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.Prvideo img{
+    width: 50%;
+    float: left;
+}
+.Drugideo
+{
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+}
+.Drugideo img
+{
+ 
+    width: 100%;
+}
+.left 
+{
+    padding:20px;
+    float:left;
+    width:30%; 
+    margin-left: 30px;
+}
+.proizvodi
+{    
+    padding:20px;
+    float:left;
+    width:30%;    
+    margin-left: 30px;
+}
+.right
+{
+    padding:20px;
+    float:left;
+    width:30%; 
+    margin-left: 30px;
+}
+.headder img
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    background-color: black;   
+} 
+h1
+{
+    text-align: center;
+}
+.Zelena img
+{
+    float: left;
+    width: 100%;
+    margin-right: 10%;
+}
+.Crna img
+{
+    float: left;
+    width: 100%;
+    margin-right: 10%;
+}
+.Crna 
+{
+    text-align: center;
+}
+.Odelo{
+    text-align: center;
+    margin-top: 120px;
+}
+.Odelo img
+{
+    float: left;
+    width: 100%;
+ 
+}
+.Jakna
+{
+    float: left;
+    padding: 0px 10px; 
+    width: 250px;
+    text-align: center;
+}
+.Jakna img
+{ 
+    float: left;
+    width: 100%;
+    margin-right: 10%;
+}
+.Jakna1
+{
+    float: left;
+    padding: 0px 10px; 
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+.Jakna1 img
+{
+    float: left;
+    width: 100%;
+}
+.Haljina1
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.Haljina1 img
+{
+    float: left;
+    width: 100%;
+    margin-top: 10%;
+}
+fieldset
+{
+   text-align: center;
+   background-color: white;
+   margin-bottom: 50px;
+   width: 90%;
+   margin-left: 5%;
+}
+.footer
+{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height: 40px;
+}

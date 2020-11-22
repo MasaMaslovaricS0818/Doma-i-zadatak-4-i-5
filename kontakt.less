@@ -1,0 +1,126 @@
+@slika_pozadine:url("images/pattern.jpg");
+@boja_pozadine:white;
+@dekoracija:none;
+@sirina:90%;
+@pozicija:center;
+@boja:black;
+@font-family:'Times New Roman', Times, serif;
+@velicina_fonta:25px;
+@velicina:0;
+*{
+    box-sizing: border-box;
+}
+ body
+{
+    background:@slika_pozadine;   
+}
+.container
+{
+    width:@sirina;
+    background-color:@boja_pozadine;
+    margin: @velicina auto;
+    height: 1000px;
+}
+.header
+{
+    padding: @velicina;
+    
+    
+}
+.headder img
+{
+    margin: @velicina;
+    padding: @velicina;
+    list-style-type:@dekoracija;    
+}    
+ul li
+{
+    color: @boja_pozadine;
+    text-align: @pozicija;
+    font-family:@font-family;
+    font-size: @velicina_fonta;
+    height:@velicina_fonta;
+    float: left;
+    width: 22%;
+    list-style-type:@dekoracija;
+        a{
+            display: block;
+            color:@boja;
+                a:hover{
+                    color: @boja_pozadine;
+                    background-color:@boja;
+                }
+        }
+}
+.kontakt {
+    text-align:@pozicija;
+    color: @boja;
+    font-size: 2rem;
+}
+.registracionaforma form label{
+    margin: 7px 0;
+    color:@boja;
+}
+.registracionaforma form input,
+.registracionaforma form label,
+.registracionaforma form button
+{
+    display: block;
+}
+.registracionaforma form {
+    width: 80%;
+}
+form button{
+    margin: 10px 20px;
+    padding: 5px 20px;
+    background-color: @boja_pozadine;
+    font-size: 1.1rem;
+}
+.registracionaforma form input{
+    width: 50%;
+    height: 2vh;
+    background-color:@boja_pozadine;
+    transition: transform 2s ease;
+}
+.registracionaforma{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.registracionaforma form label{
+    font-size: 1.5rem;
+    color: @boja;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+::placeholder{
+    color: @boja;
+    font-size: 1rem;
+}
+input[type=text]:focus,
+input[type=email]:focus
+{
+ transform: scale(1.2);
+}
+.centralnideo{
+    width:90%;
+    height: 500px;
+}
+.mapa{
+    width: 60%;
+    height: 350px;
+    margin-left: 40%;
+}
+.footer
+{
+    text-align:@pozicija;
+    height: 40px;
+    font-size: 35px;
+    background-color:@boja_pozadine;
+} 
+label
+{
+
+    color: @boja_pozadine;
+}

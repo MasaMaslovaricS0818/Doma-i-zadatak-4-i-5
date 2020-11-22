@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+ body
+{
+    background: url("images/pattern.jpg");
+   
+}
+.container
+{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    height: 1000px;
+}
+.header
+{
+    padding: 0;
+    
+}
+.headder img
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}    
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+} 
+li 
+{
+    float:left;
+}
+li a 
+{
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+li a:hover
+{
+    background-color: #111;
+} 
+label
+{
+    color:black;
+}
+.kontakt {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+.registracionaforma form label{
+    margin: 7px 0;
+    color: black;
+}
+
+.registracionaforma form input,
+.registracionaforma form label,
+.registracionaforma form button{
+    display: block;
+}
+
+.registracionaforma form {
+    width: 100%;
+    margin-left: 5%;
+}
+
+form button{
+    margin: 10px 20px;
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 1.1rem;
+}
+
+.registracionaforma form input{
+    width: 50%;
+    height: 2vh;
+    background-color:white;
+    transition: transform 2s ease;
+}
+.registracionaforma{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.registracionaforma form label{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+::placeholder{
+    color: black;
+    font-size: 1rem;
+}
+
+input[type=text]:focus,
+input[type=email]:focus{
+ transform: scale(1.2);
+
+}
+.centralnideo{
+    width:90%;
+    height: 500px;
+}
+.mapa{
+    width: 60%;
+    height: 350px;
+    margin-left: 40%;
+}
+.hamburger
+{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    padding:10px;  
+    display: none;
+}
+.hamburger .line
+{
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    height: 5px;
+    
+}
+@media only screen and (max-width:1024px)
+{
+    .nav
+    {
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+}
+.footer
+{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+

@@ -1,0 +1,230 @@
+@slika_pozadine:url("images/pattern.jpg");
+@boja_pozadine:white;
+@dekoracija:none;
+@poravnanje:left;
+@sirina:90%;
+@sirina1:100%;
+@visina:500px;
+@boja:black;
+@margina:5%;
+@margina1:10%;
+@font-family: 'Times New Roman', Times, serif;
+@velicina_fonta:25px;
+*{
+    box-sizing: border-box;
+}
+body
+{
+    background:@slika_pozadine;
+   
+}
+.container
+{
+    width: @sirina;
+    background-color: @boja_pozadine;
+    margin: 0 auto;
+}
+.header
+{
+    padding: 0;
+}
+.headder img
+{
+    list-style-type: @dekoracija;    
+}
+.Prvideo
+{
+    margin-top: @margina1;
+    margin-left:@margina;
+    margin-right:@margina;
+    width:@sirina;
+}
+.Prvideo img
+{   
+    width:@sirina1;
+
+}
+.Drugideo
+{
+    margin-right: @margina;
+    margin-left: @margina;
+    width: @sirina;
+}
+.Drugideo img
+{
+    width:@sirina1;
+}
+h1{
+    text-align: center;
+}
+.Zelena
+{
+    float: @poravnanje;
+    width:@sirina1;
+    padding: 0px @margina1;
+
+}
+.Zelena img
+{
+    float: @poravnanje;
+    width:@sirina1;
+    height: @visina;
+    margin-right:@margina1;
+}
+.Jakna
+{
+    float:@poravnanje;
+    width:@sirina1;
+    padding: 0px @margina1;
+    
+}
+.Jankna img
+{
+    float: @poravnanje;
+    width:@sirina1;
+    margin-right:@margina1;
+}
+.Crna
+{
+    float: @poravnanje;
+    width:@sirina1;
+    
+    
+}
+.Crna img
+{
+    float: @poravnanje;
+    width:@sirina1;
+    margin-right:@margina1;
+}
+.Odelo
+{
+    text-align: center;
+    width:@sirina1;
+}
+.Odelo img
+{
+    float: @poravnanje;
+    width:@sirina1;
+ 
+}
+
+.Jakna
+{
+    float: @poravnanje;
+    width:@sirina1;
+    padding: 0px @margina1;
+    
+}
+.Jakna img
+{
+    float: @poravnanje;
+    width:@sirina1;
+    margin-right: @margina1;
+}
+.Jakna1
+{
+    float: @poravnanje;
+    width:@sirina1;
+    padding: 0px @margina1;
+    
+}
+.Jakna1 img
+{
+    float: @poravnanje;
+    width:@sirina1;;
+    height:@visina;
+    margin-right: @margina1;
+}
+.Haljina1
+{
+    float: left;
+    width:@sirina1;
+    text-align: center;
+}
+.Haljina1 img
+{
+    float: left;
+    width:@sirina1;
+    margin-top: 10%;
+}
+.Registracionideo
+{
+    color: @boja_pozadine;
+    vertical-align: top;
+    width:@margina1;
+    display: inline-block; 
+    height: 400px;   
+}
+ul li
+{ 
+    text-decoration: @boja;
+    text-align: center;
+    font-family:@font-family;
+    font-size: @velicina_fonta;
+    height: @velicina_fonta;
+    float: @poravnanje;
+    widows: 22%;
+    list-style-type: @dekoracija;
+        a{
+            display: block;
+            color:@boja;
+            a:hover{
+                color:@boja_pozadine;
+                background-color: @boja;
+            }
+        }
+}
+.hamburger{
+    background:@dekoracija;
+    position:sticky;
+    top:@velicina;
+    left:@velicina;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    border:@velicina;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:@dekoracija;
+    z-index:1000;
+    border-radius: 5px;
+  }
+.hamburger .line
+{
+    width: 80%;
+    margin-left:@margina;
+    margin-top: @margina;
+    height: 4px;
+    background-color:@boja_pozadine;    
+}
+@media only screen and (max-width:800px)
+{
+    .nav
+    {
+        display:@dekoracija;
+    }
+    ul li {
+        display: block;
+        width: 40%;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+
+}
+.footer
+{
+    text-align: center;
+    height: 40px;
+    font-size: 35px;
+    background-color:@boja_pozadine;
+}
+
+    
+label{
+
+    color: @boja_pozadine;
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <title>O nama</title>
+    <link rel="stylesheet" href="css/onama.css">
+    <style>
+ body
+{
+    background: url("images/pattern.jpg");
+   
+}
+</style>
+<script type="">
+    $(document).ready(function () {
+        $(".hamburger").click(function () {
+            $(".nav").slideToggle(300);
+        })
+        $(window).resize(function () {
+            if($(".hamburger").css("display") == "none")
+            {
+                $(".nav").css("display","block");
+            }
+        })
+    })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: black;" classs="header">
+            <img src="images/logo.jpg" alt="page_logo">
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>               
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="Mona.html">Početna</a></li>
+                    <li><a href="O_nama.html">O nama</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="Onama">
+                <hr>
+                <h1>O nama</h1>
+                <hr>
+                <p><b>O nama
+                    Od svog nastanka 1989, pa sve do danas, Mona Fashion d.o.o. je imala jedinstvenu viziju da svojim kupcima pruži mogućnost kvalitetnog i modernog odevanja u skladu sa vodećim svetskim trendovima Svake sezone Mona nudi ready-to wear kolekcije za žene i muškarce kao i širok spektar modnih aksesoara. Dugoročno zadovoljstvo kupaca je misija kompanije Mona od prvog dana te ne pravi kompromise kada su kvalitet i dizajn u pitanju. Mona svoje modele vidi na modernim, ostvarenim, sofisticiranim i samouverenim ženama i muškarcima koji vode računa o svom izgledu u svakoj prilici..</b></p>
+                <br>
+                <p>Svake sezone Mona nudi ready-to wear kolekcije za žene i muškarce kao i širok spektar modnih aksesoara. Dugoročno zadovoljstvo kupaca je misija kompanije Mona od prvog dana te ne pravi kompromise kada su kvalitet i dizajn u pitanju.</p>
+                <br>
+                <p>Mona svoje modele vidi na modernim, ostvarenim, sofisticiranim i samouverenim ženama i muškarcima koji vode računa o svom izgledu u svakoj prilici.</p>
+                <hr>
+            </div>
+            <div class="slike">
+                <a href="images/slika3.jpg" data-lightbox="mygallery"><img src="images/slika1.jpg"></a>
+                <a href="images/slika2.jpg" data-lightbox="mygallery"><img src="images/slika4.jpg"></a>
+                <a href="images/slika5.jpg" data-lightbox="mygallery"><img src="images/slika6.jpg"></a>
+                <a href="images/slika7.jpg" data-lightbox="mygallery"><img src="images/slika8.jpg"></a>
+            </div>
+            
+    </div>
+                
+            
+    
+    <div class="footer">
+            &copy; Maša Maslovarić S08/18 |Veljka Vlahovića 6|mmaslovaric818s@raf.rs 
+        </div>
+</body>
+</html>
